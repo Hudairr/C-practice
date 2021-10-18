@@ -1,0 +1,153 @@
+
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	cout << "Enter The 'A' alphabet" << endl;
+	char letter;
+	string input = "";
+	getline(cin, input);
+	if (input.size() != 1)
+	{
+		cout << "You have entered more than one letter" << endl;
+	}
+	else
+	{
+		letter = input.at(0);
+		switch (letter)
+		{
+		case 'A':
+		case 'a': {
+				cout << "You've entered the 1st letter of the alphabet";
+				break;
+			}
+		case 'B':
+		case 'b': {
+				cout << "You've entered the 2nd letter of the alphabet";
+				break;
+			}
+		case 'c':
+		case 'C': {
+				cout << "You've entered the 3rd letter of the alphabet";
+				break;
+			}
+		case 'd':
+		case 'D': {
+					cout << "You've entered the 4th letter of the alphabet";
+					break;
+				}
+		case 'e':
+		case 'E': {
+						cout << "You've entered the 5th letter of the alphabet";
+						break;
+					}
+		case 'f':
+		case 'F': {
+							cout << "You've entered the 6th letter of the alphabet";
+							break;
+						}
+		case 'g':
+		case 'G':{
+								cout << "You've entered the 7th letter of the alphabet";
+								break;
+							}
+		case 'h':
+		case 'H': {
+									cout << "You've entered the 8th letter of the alphabet";
+									break;
+								}
+		case 'i':
+		case 'I':{
+										cout << "You've entered the 9th letter of the alphabet";
+										break;
+									}
+		case 'j':
+		case 'J':{
+											cout << "You've entered the 10th letter of the alphabet";
+											break;
+										}
+		case 'k':
+		case 'K': {
+												cout << "You've entered the 11th letter of the alphabet";
+												break;
+											}
+		case 'l':
+		case 'L': {
+													cout << "You've entered the 12th letter of the alphabet";
+													break;
+												}
+		case 'm':
+		case 'M': {
+														cout << "You've entered the 13th letter of the alphabet";
+														break;
+													}
+		case 'n':
+		case 'N': {
+															cout << "You've entered the 14th letter of the alphabet";
+															break;
+														}
+		case 'o':
+		case 'O': {
+																cout << "You've entered the 15th letter of the alphabet";
+																break;
+															}
+		case 'p':
+		case 'P': {
+																	cout << "You've entered the 16th letter of the alphabet";
+																	break;
+																}
+		case 'q':
+		case 'Q': {
+																		cout << "You've entered the 17th letter of the alphabet";
+																		break;
+																	}
+		case 'r':
+		case 'R': {
+																			cout << "You've entered the 18th letter of the alphabet";
+																			break;
+																		}
+		case 's':
+		case 'S':{
+																				cout << "You've entered the 19th letter of the alphabet";
+																				break;
+																			}
+		case 't':
+		case 'T': {
+																					cout << "You've entered the 20th letter of the alphabet";
+																					break;
+																				}
+		case 'u':
+		case 'U': {
+			cout << "You've entered the 21st letter of the alphabet";
+			break;
+		}
+		case 'v':
+		case 'V': {
+			cout << "You've entered the 22nd letter of the alphabet";
+			break;
+		}
+		case 'w':
+		case 'W': {
+			cout << "You've entered the 23rd letter of the alphabet";
+			break;
+		}
+		case 'x':
+		case 'X': {
+			cout << "You've entered the 24th letter of the alphabet";
+			break;
+		}
+		case 'y':
+		case 'Y': {
+			cout << "You've entered the 25th letter of the alphabet";
+			break;
+		}
+		case 'z':
+		case 'Z': {
+			cout << "You've entered the 26th letter of the alphabet";
+			break;
+		}
+	}
+	}
+	return 0;
+}
