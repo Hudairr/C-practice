@@ -18,3 +18,7 @@ int main()
 
     return 0;
 }
+
+As you can see, the program executed the matching case statement, printing "Adult" to the screen. 
+With no specified break statement, the statements continued to run after the matching case. 
+Thus, all the other case statements printed. This type of behavior is called fall-through.
