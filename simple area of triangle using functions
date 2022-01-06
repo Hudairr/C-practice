@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int volume(int l=1, int w=1, int h=1) {
+    return l*w*h;
+}
+
+int main() {
+    int a, b, c;
+    cout << "Enter length: " << endl;
+    cin >> a;
+    cout << "Enter width: " << endl;
+    cin >>b;
+    cout << "Enter height: " << endl;
+    cin >> c;
+    cout << volume(a, b, c) << endl;
+}
